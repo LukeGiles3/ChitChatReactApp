@@ -1,0 +1,24 @@
+html, body, .app {
+    height: 100vh;
+    background: #D5B895;
+    padding: 1em;
+}
+
+.messages {
+    height: 440px;
+    overflow-y: scroll;
+}
+
+.message__form {
+    position: fixed !important;
+    bottom: 1em;
+    margin-left: 320px !important;
+    left: 0;
+    right: 1em;
+    z-index: 200;
+}
+
+.message__self {
+    border-left: 2px solid blue;
+    padding-left: 8px;
+}
